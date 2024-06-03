@@ -28,6 +28,11 @@ This project contains a PHP script and a shell script to manage firewall rules u
    nano .env
    ```
 
+4. Make the `run.sh` script executable:
+   ```sh
+   chmod +x run.sh
+   ```
+
 ## Configuration
 
 Create a `.env` file in the root directory of your project and populate it with your configuration details. An example `.env` file is shown below:
