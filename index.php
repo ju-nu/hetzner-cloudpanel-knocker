@@ -9,6 +9,7 @@ $dotenv->load();
 $expectedKnockKey = $_ENV['EXPECTED_KNOCK_KEY'] ?? false;
 
 if ($expectedKnockKey === false) {
+    http_response_code(500);
     echo "Error: .env file not loaded or EXPECTED_KNOCK_KEY not set.";
     exit;
 }
