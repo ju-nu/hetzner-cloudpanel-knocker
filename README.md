@@ -79,14 +79,3 @@ The PHP script will execute the `run.sh` script with the client's IP address as 
 ## License
 
 This project is licensed under the MIT License.
-```
-
-### Final Steps
-
-1. **Ensure you have Composer installed** to manage the PHP dependencies.
-
-2. **Start the PHP server** as shown in the usage section of the README.
-
-3. **Make sure the `.env` file** is properly configured with your actual values.
-
-By following these steps and using this `README.md`, you can set up and run your PHP script to manage firewall rules dynamically with Hetzner Cloud API and use it in combination with CloudPanel.
