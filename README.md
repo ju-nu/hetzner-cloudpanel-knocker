@@ -1,4 +1,4 @@
-# CloudPanel + Hetzner Cloud Firewall Management Script
+# CloudPanel + Hetzner Cloud Firewall Knocking Script
 
 This project contains a PHP script and a shell script to manage firewall rules using the Hetzner Cloud API. The script is designed to be used in combination with CloudPanel to dynamically update firewall rules based on client IP addresses.
 
