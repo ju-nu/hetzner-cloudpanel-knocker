@@ -44,7 +44,7 @@ Create a `.env` file in the root directory of your project and populate it with 
 EXPECTED_KNOCK_KEY=your_knock_key
 
 # The name of the script to be executed
-SCRIPT_NAME=run.sh
+RUN_NAME=run.sh
 
 # Hetzner API token
 API_TOKEN=your_api_token
