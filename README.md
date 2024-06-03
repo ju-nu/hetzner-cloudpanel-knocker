@@ -51,18 +51,6 @@ API_TOKEN=your_api_token
 
 # Firewall ID in Hetzner Cloud
 FIREWALL_ID=your_firewall_id
-
-# Port to be opened for the client's IP address
-PORT=8443
-
-# Ports to be opened for all IP addresses
-PORTS=80,443
-
-# IPv4 address range (0.0.0.0/0 allows all IPv4 addresses)
-IPV4=0.0.0.0/0
-
-# IPv6 address range (::/0 allows all IPv6 addresses)
-IPV6=::/0
 ```
 
 Replace `your_knock_key`, `your_api_token`, and `your_firewall_id` with your actual values.
