@@ -19,5 +19,11 @@ $scriptPath = realpath(dirname(__FILE__)) . '/' . getenv('SCRIPT_NAME');
 $command = escapeshellcmd("$scriptPath $clientIp");
 $output = shell_exec($command);
 
-echo "Script executed. Output: <pre>$output</pre>";
+if ($output === null) {
+    http_response_code(500);
+    echo 'Error executing script';
+} else {
+    http_response_code(200);
+    echo 'Script executed successfully. Output: <pre>' . htmlspecialchars($output) . '</pre>';
+}
 ?>
